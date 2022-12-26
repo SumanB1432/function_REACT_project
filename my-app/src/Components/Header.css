@@ -1,0 +1,35 @@
+.navigation-bar {
+  width: 100%;  /* i'm assuming full width */
+  height: 80px; /* change it to desired width */
+  background-color: rgb(104, 57, 8); /* change to desired color */
+}
+.logo {
+  display: inline-block;
+  vertical-align: top;
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  margin-top: 15px; 
+  size: 50px;   /* if you want it vertically middle of the navbar. */
+}
+.navigation-bar > a {
+  display: inline-block;
+  vertical-align: top;
+  font-size: large;
+  margin-left: 20px;
+  height: 80px;        /* if you want it to take the full height of the bar */
+  line-height: 80px; 
+  text-decoration: none; 
+  font-weight: bold; 
+  color: black;
+}
+.navigation-bar > button{
+  background-color:blueviolet;
+  align-items: center;
+  font-size: larger;
+  margin-top: 20px;
+  margin-left: 65%;
+  border-radius: 8px;
+  padding:8px;
+
+}
