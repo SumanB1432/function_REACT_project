@@ -24,12 +24,12 @@
   color: black;
 }
 .navigation-bar > button{
-  background-color:blueviolet;
+  background-color:blue;
   align-items: center;
   font-size: larger;
   margin-top: 20px;
   margin-left: 65%;
-  border-radius: 8px;
+  border-radius: 20px;
   padding:8px;
 
 }
