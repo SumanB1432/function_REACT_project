@@ -1,0 +1,109 @@
+
+.backgroundImg{
+    max-width:100%;
+   
+   }
+   .container{
+       position: relative;
+       text-align: center;
+       color:white;
+   }
+   .center{
+       position: absolute;
+       top: 30%;
+       left: 50%;
+       font-size:xx-large;
+       transform: translate(-50%,-50%);
+       font-weight: bolder;
+       font-style: italic;
+   }
+   .leftButton{
+       position: absolute;
+       bottom: 50%;
+       left:42%;
+       font-size: larger;
+       border-radius: 20px;
+       color: black;
+       background-color: white;
+       padding: 8px 10px;
+   
+   }
+   .rightButton{
+       position: absolute;
+       bottom: 50%;
+       left:51%;
+       border-radius: 20px;
+       font-size: larger;
+       background-color:red;
+       color:white;
+       padding: 8px 10px;
+   
+   
+   }
+   .text{
+       position: absolute;
+       top: 38%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+       font-style: italic;
+       color: goldenrod;
+   
+   }
+   @media screen {
+    
+   }
+   
+   @media screen and(max-width:768px){
+    .backgroundImg{
+        max-width:100%;
+       
+       }
+       .container{
+        position: relative;
+        text-align: center;
+        color:white;
+    }
+    .center{
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        font-size:medium;
+        transform: translate(-50%,-50%);
+        font-weight: bolder;
+        font-style: italic;
+    }
+    .leftButton{
+        position: absolute;
+        bottom: 40%;
+        left:35%;
+        font-size: medium;
+        border-radius: 20px;
+        color: black;
+        background-color: white;
+        padding: 8px 10px;
+    
+    }
+    .rightButton{
+        position: absolute;
+        bottom: 40%;
+        left:53%;
+        border-radius: 20px;
+        font-size: medium;
+        background-color:red;
+        color:white;
+        padding: 8px 10px;
+    
+    
+    }
+    .text{
+        position: absolute;
+        top: 38%;
+        left: 50%;
+        font-size:small;
+        transform: translate(-50%,-50%);
+        font-style: italic;
+        color: goldenrod;
+    
+    }
+
+   }
